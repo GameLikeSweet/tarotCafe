@@ -1,0 +1,85 @@
+@media (max-width: 800px) {
+  #hamburger {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    z-index: 2001;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: #fff;
+    background: #815854;
+    border-radius: 8px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s cubic-bezier(0.77, 0, 0.18, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logoBox {
+    display: none;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 100vh;
+    background: #815854;
+    transform: translateX(-100%);
+    transition: transform 0.4s cubic-bezier(0.77, 0, 0.18, 1);
+    z-index: 1500;
+    display: block;
+  }
+  header.open {
+    transform: translateX(0);
+  }
+  header nav {
+    width: 100%;
+    min-width: 0;
+  }
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+  }
+  header nav ul li {
+    margin: 0;
+    padding: 16px 0;
+  }
+  header nav ul li a {
+    color: #F9EBDE;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  header nav ul li a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  .logoBox img {
+    height: 40px;
+    width: auto;
+  }
+  #main {
+    width: 100vw;
+    box-sizing: border-box;
+  }
+  .mainSlide,
+  .howToCome {
+    width: 100vw;
+    min-width: 0;
+    padding: 0;
+    margin: 20px 0;
+  }
+  .swiper,
+  .howToCome .map {
+    width: 95vw;
+    min-width: 0;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .swiper-slide {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=mobile.css.map */
