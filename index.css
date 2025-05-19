@@ -80,4 +80,9 @@ header nav ul li a:hover {
 .howToCome .map iframe {
   width: 100%;
   height: 100%;
+}
+
+img {
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=index.css.map */

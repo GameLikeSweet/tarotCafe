@@ -82,4 +82,25 @@
   .swiper-slide {
     font-size: 1rem;
   }
+  .menuList {
+    width: 100vw;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .menuList .menus {
+    background-color: lightgray;
+    width: 200px;
+    height: 300px;
+    margin: 10px auto;
+    padding: 10px;
+  }
+  .menuList .menus img {
+    width: 200px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
 }/*# sourceMappingURL=mobile.css.map */

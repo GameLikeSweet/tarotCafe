@@ -1,0 +1,28 @@
+.menuList {
+    width: 800px;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    .menus {
+        background-color: lightgray;
+        width: 200px;
+        height: 300px;
+        margin:0 auto;
+        padding: 10px;
+        transform: scale(0.9);
+        transition-duration: 1s;
+
+        img {
+            width: 200px;
+            height: 150px;
+            margin: 0;
+            padding: 0;
+            object-fit: contain;
+        }
+    }
+
+    .menus:hover {
+        transform: scale(1.1);
+    }
+}
